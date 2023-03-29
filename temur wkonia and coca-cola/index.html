@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(to right bottom, #ff0000, #ff3d00, #ff5900, #ff6f00, #ff8200);
+        }
+
+        .column {
+            width: 30%;
+            height: 90%;
+            margin-top: 5%;
+            background-image: radial-gradient(circle, #ff3d3d, #ff5b2f, #ff7621, #ff8f10, #ffa600);
+        }
+
+        .column_inside {
+            width: 90%;
+            height: 70%;
+            margin-left: 5%;
+            margin-top: 50%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+        }
+
+        img {
+            margin-top: -50%;
+            width: 70%;
+            height: 30%;
+            min-height: 50%;
+            min-width: 50%;
+            border-radius: 50%;
+            border: 15px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="column">
+            <div class="column_inside">
+                <img src="https://st3.depositphotos.com/1063437/32154/i/450/depositphotos_321541624-stock-photo-can-and-glass-of-coca.jpg"
+                    usemap="#image-map">
+                <map name="image-map">
+                    <area target="" alt="" title="" href=""
+                        coords="73,266,88,232,118,149,159,64,186,45,261,19,313,38,335,60,347,80,351,109,352,124,348,163,261,329,234,339,205,354,157,367,149,324,108,326,100,292,94,271,85,270,81,269"
+                        shape="poly">
+                    <area target="_blank" alt="" title="coca-cola" href="https://www.coca-colacompany.com/" coords="" shape="poly">
+                </map>
+            </div>
+        </div>
+        <!-- copy of first column with marginleft-->   
+        <div class="column" style="margin-left:5%">
+            <div class="column_inside">
+                <img src="https://cdn.imedi.ge/new/imedinews/G/2111/01/15/69/77/ibXKfO3T0EqWciOw7J1Y4w/untitled-design-5.jpg" alt=""
+                usemap="#image-map1">
+                <map name="image-map1">
+                    <area target="" alt="" title="" href=""
+                        coords="15,432,65,313,221,282,258,122,382,106,439,194,420,314,513,373,525,546,4,551"
+                        shape="poly">
+                    <area target="" alt="" title="coca-colapresident" href="https://www.facebook.com/" coords="" shape="poly">
+                </map>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
